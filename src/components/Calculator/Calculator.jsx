@@ -30,7 +30,15 @@ function Calculator () {
 
 
   return (
-    <Box sx={{p:2, backgroundColor: '#101118', borderRadius: 2, width: '300px', height: '200px', margin: '0 auto'}}>
+    <Box sx={{
+      p:2, 
+      backgroundColor: '#101118', 
+      borderRadius: 2, 
+      width: '300px', 
+      margin: '0 auto', 
+      height: 'auto', 
+      minHeight: '400px'}}>
+
       <Display onClick = {handleButtonClick}>
         {display}
       </Display>
